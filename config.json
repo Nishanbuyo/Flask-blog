@@ -10,12 +10,12 @@
         "tag_line": "A Blog Theme by Flask",
         "gmail_user" : "nishanbuyo05",
         "gmail_password" : "gmail_password",
-        "gmail_recipients": "nishanbuyo505@gmail.com",
+        "gmail_recipients": "recepient email",
         "about_text": "Hello all I am Nishan and I am making this blog using flask framework",
         "no_of_posts":3,
         "login_image" : "login_image.jpeg",
-        "admin_email": "nishanbuyo05@gmail.com",
-        "admin_password": "tnahsoe",
+        "admin_email": "email for login",
+        "admin_password": "password for login",
         "upload_location": "/home/tnahsoe/CSIT/Flask/static/img"
     }
 } 
