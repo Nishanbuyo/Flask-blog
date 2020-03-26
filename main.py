@@ -1,4 +1,4 @@
-from flask import Flask, render_template,request, session, redirect
+from flask import Flask, render_template,request, session, redirect, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug import secure_filename
 import json
@@ -154,6 +154,7 @@ def dashboard():
 
 @app.route("/contact", methods=['GET', 'POST'])
 def contact():
+    
     if(request.method=='POST'):
         '''Add entry to database '''
         name=request.form.get('name')
@@ -164,11 +165,12 @@ def contact():
         entry=Contacts(name=name, email=email, phone_number=phone, message=message)
         db.session.add(entry)
         db.session.commit()
-        mail.send_message('New message from Flask app by ' + name, 
-                            sender= email, 
-                            recipients = [params['gmail_recipients']],
-                            body = message + "\n " + phone,
-                            )
+        # mail.send_message('New message from Flask app by ' + name, 
+        #                     sender= email, 
+        #                     recipients = [params['gmail_recipients']],
+        #                     body = message + "\n " + phone,
+        #                     )
+        flash("Thanks for submitting your detail. We will get back to you soon", "success")
     return render_template('contact.html', params=params)
 
 
