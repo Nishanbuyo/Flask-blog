@@ -1,0 +1,21 @@
+{
+    "params": {
+        "local_server": "mysql://root:root@localhost:3306/Flask_blog",
+        "prod_server": "mysql://root:root@localhost:3306/Flask_blog",
+        "fb_uri": "https://www.facebook.com/ne.shnt",
+        "tw_uri": "https://twitter.com/Ne_shnT",
+        "gh_uri": "https://github.com/Nishanbuyo",
+        "blog_name": "Fantastic Coding",
+        "blog_title": "Flask | Flask blog",
+        "tag_line": "A Blog Theme by Flask",
+        "gmail_user" : "nishanbuyo05",
+        "gmail_password" : "9808812352A",
+        "gmail_recipients": "nishanbuyo505@gmail.com",
+        "about_text": "Hello all I am Nishan and I am making this blog using flask framework",
+        "no_of_posts":3,
+        "login_image" : "login_image.jpeg",
+        "admin_email": "nishanbuyo05@gmail.com",
+        "admin_password": "tnahsoe",
+        "upload_location": "/home/tnahsoe/CSIT/Flask/static/img"
+    }
+} 

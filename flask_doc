@@ -1,0 +1,5 @@
+app.run()          // run flask app
+from flask import Flask
+fuser -k 5000/tcp  //run flask on port 5000
+
+
