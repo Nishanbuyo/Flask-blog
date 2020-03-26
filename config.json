@@ -9,7 +9,7 @@
         "blog_title": "Flask | Flask blog",
         "tag_line": "A Blog Theme by Flask",
         "gmail_user" : "nishanbuyo05",
-        "gmail_password" : "9808812352A",
+        "gmail_password" : "gmail_password",
         "gmail_recipients": "nishanbuyo505@gmail.com",
         "about_text": "Hello all I am Nishan and I am making this blog using flask framework",
         "no_of_posts":3,
